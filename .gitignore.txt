@@ -1,0 +1,54 @@
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.log
+*.bin
+*.suo
+*.user
+*.sln.docstates
+
+# Diretórios de saída
+bin/
+obj/
+
+# Diretórios de arquivos temporários
+[Tt]emp/
+[Vv]isual[Tt]udio[Oo]nline/
+
+# Arquivos de publicação
+_PublishedWebsites/
+*.pubxml
+*.publishproj
+
+# Diretórios de ferramentas
+_tools/
+
+# Arquivos de NuGet
+*.nuget.props
+*.nuget.targets
+
+# Arquivos de Resharper
+_ReSharper*/
+
+# Arquivos de Rider
+.idea/
+
+# Diretórios de análise
+.vscode/
+.vs/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
