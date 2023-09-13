@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tegWLRt6AE7Q2X7/wQl2KnNAh9qxLr4jh6pWciopC81GT8DhV7DmErfO+qiDOJWmzgYy43Dm9jMzdOfi5qtpdg==",
+  "dgSpecHash": "euoAxvMI1Y56lsOJIjPZZDquHUBtRPqdyCX/rUUVcGrY2uLOLTHM+TyyzULzTzkbQPJjwUWMFkCLqoKzBFViXA==",
   "success": true,
-  "projectFilePath": "C:\\Teste\\Anuncio.Dados\\Anuncio.Presentation\\Anuncio.Presentation.csproj",
+  "projectFilePath": "C:\\Teste\\Anuncio.Dados\\Anuncio.Data\\Anuncio.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitin\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
     "C:\\Users\\vitin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

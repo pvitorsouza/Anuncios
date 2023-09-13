@@ -1,0 +1,12 @@
+C:\Teste\Anuncio.Dados\Anuncio.Data\bin\Debug\net7.0\Anuncio.Data.deps.json
+C:\Teste\Anuncio.Dados\Anuncio.Data\bin\Debug\net7.0\Anuncio.Data.dll
+C:\Teste\Anuncio.Dados\Anuncio.Data\bin\Debug\net7.0\Anuncio.Data.pdb
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.csproj.AssemblyReference.cache
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.AssemblyInfoInputs.cache
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.AssemblyInfo.cs
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.csproj.CoreCompileInputs.cache
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.dll
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\refint\Anuncio.Data.dll
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\Anuncio.Data.pdb
+C:\Teste\Anuncio.Dados\Anuncio.Data\obj\Debug\net7.0\ref\Anuncio.Data.dll
