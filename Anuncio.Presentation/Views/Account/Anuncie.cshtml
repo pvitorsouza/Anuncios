@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<div class="text-center">
+    <h4>Anunciar</h4>
+    <p>Informe os dados para cadastrar o anuncio.</p>
+    <hr />
+</div>
+
+<form>
+    <div class="mb-2">
+        <label>Informe o nome do anuncio:</label>
+        <input type="text" class="form-control" placeholder="Ex: Notebook Dell" />
+    </div>
+
+    <div class="mb-2">
+        <label>Informe o nome do anunciante</label>
+        <input type="text" class="form-control" placeholder="Ex: joao silva" />
+    </div>
+
+    <div class="mb-2">
+        <label>Informe o numero do anunciante</label>
+        <input type="text" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label>Informe seu email:</label>
+        <input type="text" class="form-control" placeholder="Ex: joaosilva@gmail.com" />
+    </div>
+
+    <div class="mb-2">
+        <label>Informe sua senha:</label>
+        <input type="password" class="form-control" />
+    </div>
+
+    <div class="mb-2 d-grid">
+        <input type="submit" class="btn btn-primary" value="Anunciar" />
+    </div>
+
+    <div class="mb-2 text-center">
+        Não possui conta?
+        <a href="/Account/Login">Acesse aqui!</a>
+    </div>
+</form>
+  
+
+

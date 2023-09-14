@@ -1,3 +1,160 @@
 ﻿@{
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
+
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+
+            .anuncio {
+                flex-basis: calc(25% - 20px);
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
+
+            
+
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .column {
+                float: inline-start;
+                width: 25%;
+                padding: 10px;
+            }
+
+
+            h2 {
+                font-size: 20px;
+                color: #333;
+            }
+
+            p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .product-image {
+                max-width: 70%;
+                height: auto;
+            }
+
+            .buy-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+                .buy-button:hover {
+                    background-color: #0056b3;
+                }
+            
+        </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1></h1>
+
+            <div class="row">
+                <div class="anuncio">
+                    <h2>Eletronicos</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NYnhP.eletronicos.jpg" alt="Produto 1">
+                    <p>Entre em contado.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+                <div class="anuncio">
+                    <h2>Desenvolvedor</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6N0oAf.dev.md.jpg" alt="Produto 2">
+                    <p>Faça ja seu orçamento.</p>
+                    <p>2199999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+
+                <div class="anuncio">
+                    <h2>Manutenção de Celulares</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NcQMX.download.jpg" alt="Produto 3">
+                    <p>Faça ja seu orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+                <div class="anuncio">
+                    <h2>Manutenção de Computadores</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6Nb3Cm.terra-empresas-manutencao-de-computadores-capa1.jpg" alt="Produto 4">
+                    <p>Faça ja seu Orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="anuncio">
+                    <h2>Dedetizador</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NiAYG.dedetizador.jpg" alt="Produto 5">
+                    <p>Faça ja seu orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+                <div class="anuncio">
+                    <h2>Soldador</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NcsI1.soldador.png" alt="Produto 6">
+                    <p>Faça seu Orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+                <div class="anuncio">
+                    <h2>Marceneiro</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NcUf0.Marceneiro.png" alt="Produto 7">
+                    <p>Entre em contato e faça seu orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+
+                <div class="anuncio">
+                    <h2>Fretes em Geral</h2>
+                    <img class="product-image" src="https://i.im.ge/2023/09/15/6NcCu6.aluguel-de-caminhao-de-frete-mudanca.png" alt="Produto 8">
+                    <p>Entre em contato e faça ja seu orçamento.</p>
+                    <p>21999999999</p>
+                    <a class="buy-button" href="#">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
 }

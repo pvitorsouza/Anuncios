@@ -23,5 +23,10 @@ namespace Anuncio.Presentation.Controlle
         {
             return View();
         }
+
+        public IActionResult Anuncie()
+        {
+            return View();
+        }
     }
 }
