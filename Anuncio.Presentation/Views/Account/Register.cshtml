@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Anuncio.Presentation.Models.AccountRegisterViewModel
+
+@{
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
 }
 
@@ -8,27 +10,44 @@
     <hr />
 </div>
 
+<div class="mb-2 text-center">
+    <strong>@TempData["Mensagem"]</strong>
+</div>
 
-<form>
-
+@using(Html.BeginForm())
+{
     <div class="mb-2">
         <label>Informe seu nome completo:</label>
-        <input type="text" class="form-control" placeholder="Ex: João da Silva"/>
+        @Html.TextAreaFor(model=>model.Nome, new {@class="form-control", placeholder="Ex: João da Silva" })
+        <span class="text-danger">
+            @Html.ValidationMessageFor(model=>model.Nome)
+        </span>
+        
     </div>
 
     <div class="mb-2">
         <label>Informe seu email:</label>
-        <input type="text" class="form-control" placeholder="Ex: joaosilva@gmail.com" />
+        @Html.TextBoxFor(model=>model.Email, new {@class="form-control", placeholder="Ex: joaosilva@gmail.com"})    
+            @Html.ValidationMessageFor(model=>model.Nome)
+            <span class="text-danger">
+                @Html.ValidationMessageFor(model=>model.Email)
+            </span>
     </div>
 
     <div class="mb-2">
         <label>Informe sua senha:</label>
-        <input type="password" class="form-control" />
+        @Html.PasswordFor(model=>model.Senha, new {@class="form-control"})
+        <span class="text-danger">
+            @Html.ValidationMessageFor(model=>model.Senha)
+        </span>
     </div>
 
     <div class="mb-2">
         <label>Confirme sua senha:</label>
-        <input type="password" class="form-control" />
+        @Html.PasswordFor(model=>model.SenhaConfirm, new {@class="form-control"})
+        <span class="text-danger">
+            @Html.ValidationMessageFor(model=>model.SenhaConfirm)
+        </span>
     </div>
 
     <div class="mb-2 d-grid">
@@ -40,4 +59,4 @@
         <a href="/Account/Login">Acesse aqui!</a>
     </div>
 
-</form>
+}

@@ -10,7 +10,7 @@ namespace Anuncio.Data.Settings
     {
         public static string GetConnectionSting()
         {
-            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BdAnuncio;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BdAnuncio;Integrated Security=True;";
         }
     }
 }
